@@ -12,9 +12,9 @@ run <- function(rootpath = "./UCI HAR Dataset"){
   #install.packages("dplyr")
   library(dplyr)
   
-  #' This function analize the train or test data set and parse them to data frames
+  #' This function analyze the train or test data set and parse them to data frames
   #' @param type the folder to read can be "test" or "train" 
-  analize <- function(type){
+  analyze <- function(type){
     
     # 'activity_labels.txt'file path
     activityLabelsPath <- paste0(rootpath,"/activity_labels.txt")
@@ -103,7 +103,7 @@ run <- function(rootpath = "./UCI HAR Dataset"){
   
   # analize 'test' and 'train' data
   print("Analizing test and train data...")
-  test <- analize("test");train <- analize("train")
+  test <- analyze("test");train <- analyze("train")
   
   print("Cleannig dataset...")
   # bind 'test' and 'train' 
