@@ -24,7 +24,7 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 | Step | Example |
 | ------------- | ------------- |
 | Download the raw data  | https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip |
-| Unzip the file on the project folder  | The "UCI HAR Dataset" folder should look like this:\ ![Folder preview](./assets/folder.jpg?raw=true "How the script works")  |
+| Unzip the file on the project folder  | The "UCI HAR Dataset" folder should look like this: <br/> ![Folder preview](./assets/folder.jpg?raw=true "How the script works")  |
 | Add the script as source  | ```source("./run_analysis.R")```  |
 | Run the script  | ```run_analysis()```  |
 
