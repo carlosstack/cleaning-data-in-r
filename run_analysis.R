@@ -7,7 +7,7 @@
 
 #' this fuction run the script and write the file output
 #' @param rootpath the path of 'UCI HAR Dataset' folder, by default './UCI HAR Dataset'
-run <- function(rootpath = "./UCI HAR Dataset"){
+run_analysis <- function(rootpath = "./UCI HAR Dataset"){
   
   #install.packages("dplyr")
   library(dplyr)
@@ -137,7 +137,8 @@ run <- function(rootpath = "./UCI HAR Dataset"){
   print("Script finished.")
 }
 
-run()
+
+
 
 
 
